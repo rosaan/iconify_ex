@@ -37,8 +37,8 @@ defmodule Iconify.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:jason, "~> 1.3"},
-      {:phoenix_live_view, "~> 0.18.18 or ~> 0.19"},
-      {:surface, "~> 0.11.0", optional: true},
+      {:phoenix_live_view, "~> 0.19 or ~> 0.20"},
+      {:surface, git: "https://github.com/rosaan/surface", optional: true},
       {:phoenix_live_favicon, "~> 0.2.0", optional: true},
       {:recase, "~> 0.5"},
       {:arrows, "~> 0.1"},
